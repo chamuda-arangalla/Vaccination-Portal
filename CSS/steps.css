@@ -1,0 +1,75 @@
+main{
+    height: 150vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../IMAGES/steps.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    
+}
+
+.m_cont{
+    height: 130vh;
+    display: flex;
+    padding: 10px;
+    padding-top:60px;
+}
+
+.leftt{
+    height: 100vh;
+    flex-basis: 60%;
+    
+}
+
+.rightt{
+    height: 100vh;
+    flex-basis: 40%;
+    
+  
+}
+
+.step{
+    width: 95%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.stepbox{
+    width: 240px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 15px;
+    background:transparent;
+    border: 2px solid #fff;
+}
+
+.stepbox p{
+    color: #fff;
+    font-size: 50px;
+}
+
+.stepboxlines{
+    width: 540px;
+    height: 140px;
+    background:transparent;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 40px;
+    
+}
+h1
+{
+    background-color: #d1bea8;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
